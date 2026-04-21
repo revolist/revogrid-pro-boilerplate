@@ -17,8 +17,9 @@
     "@angular/router": "^20.0.0",
     "@revolist/angular-datagrid": "^4.21.4",
     "@revolist/revogrid": "^4.21.4",
-    "@revolist/revogrid-pro": "^2.0.0",
+    "@revolist/revogrid-column-date": "^2.0.25",
     "@revolist/revogrid-enterprise": "^2.0.0",
+    "@revolist/revogrid-pro": "^2.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
