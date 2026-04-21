@@ -10,7 +10,7 @@ Each example is a self-contained project you can clone, install, and run in minu
 | `enterprise-pivot/` | Pivot table with drag-and-drop configurator | `@revolist/revogrid-enterprise` |
 | `pro-tree/` | Hierarchical tree data with expand/collapse | `@revolist/revogrid-pro` |
 
-Each example is available for four frameworks:
+Each example is available for five frameworks:
 
 ```
 <framework>/
@@ -66,6 +66,9 @@ Open the URL printed in the terminal (usually `http://localhost:5173`).
 ```
 revogrid-pro-boilerplate/
 ├── angular/
+│   ├── enterprise-pivot/
+│   └── pro-tree/
+├── react/
 │   ├── enterprise-pivot/
 │   └── pro-tree/
 ├── svelte/
