@@ -13,6 +13,7 @@
     "@revolist/revogrid-pro": "^2.0.0",
     "@revolist/revogrid-enterprise": "^2.0.0",
     "@revolist/svelte-datagrid": "^4.21.4",
+    "@revolist/revogrid-column-date": "^2.0.25",
     "svelte": "^5.38.10"
   },
   "devDependencies": {

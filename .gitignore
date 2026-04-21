@@ -25,8 +25,6 @@ pnpm-debug.log*
 # Environment & secrets (never commit tokens)
 .env
 .env.*
-# .npmrc files with tokens only — project .npmrc files (registry config) are committed
-.npmrc.local
 
 # OS artefacts
 .DS_Store
