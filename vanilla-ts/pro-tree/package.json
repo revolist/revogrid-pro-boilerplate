@@ -1,0 +1,19 @@
+{
+  "name": "revogrid-pro-tree-vanilla",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@revolist/revogrid": "^4.21.4",
+    "@revolist/revogrid-pro": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.1.5"
+  }
+}
