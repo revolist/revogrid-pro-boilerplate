@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@revolist/revogrid": "^4.21.4",
-    "@revolist/revogrid-pro": "^2.0.0"
+    "@revolist/revogrid-pro": "^2.1.6"
   },
   "devDependencies": {
     "typescript": "^5.8.3",
