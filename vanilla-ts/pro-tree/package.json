@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "^4.21.4",
-    "@revolist/revogrid-pro": "^2.1.6"
+    "@revolist/revogrid-pro": "latest"
   },
   "devDependencies": {
     "typescript": "^5.8.3",

@@ -15,9 +15,8 @@
     "@angular/platform-browser": "^20.0.0",
     "@angular/platform-browser-dynamic": "^20.0.0",
     "@angular/router": "^20.0.0",
-    "@revolist/angular-datagrid": "^4.21.4",
-    "@revolist/revogrid": "^4.21.4",
-    "@revolist/revogrid-pro": "^2.1.6",
+    "@revolist/angular-datagrid": "latest",
+    "@revolist/revogrid-pro": "latest",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
