@@ -14,7 +14,7 @@
     "@revolist/revogrid-enterprise": "latest"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
+    "typescript": "~6.0.3",
     "vite": "^7.1.5"
   }
 }
