@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid-pro": "latest",
-    "@revolist/revogrid-enterprise": "latest",
+    "@revolist/revogrid-pro": "2.5.10",
+    "@revolist/revogrid-enterprise": "2.5.10",
     "@revolist/svelte-datagrid": "latest",
     "@revolist/revogrid-column-date": "^2.0.25",
     "svelte": "^5.55.7"

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid-pro": "latest",
+    "@revolist/revogrid-pro": "2.5.10",
     "@revolist/svelte-datagrid": "latest",
     "svelte": "^5.55.7"
   },

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid-pro": "latest",
+    "@revolist/revogrid-pro": "2.5.10",
     "@revolist/vue3-datagrid": "latest",
     "vue": "^3.5.33"
   },
