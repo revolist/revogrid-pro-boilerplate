@@ -13,12 +13,12 @@
     "@revolist/revogrid-pro": "latest",
     "@revolist/revogrid-enterprise": "latest",
     "@revolist/vue3-datagrid": "latest",
-    "vue": "^3.5.21"
+    "vue": "^3.5.33"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue": "^6.0.8",
     "typescript": "~6.0.3",
-    "vite": "^6.3.5",
+    "vite": "8.2.1",
     "vue-tsc": "^2.2.10"
   }
 }
