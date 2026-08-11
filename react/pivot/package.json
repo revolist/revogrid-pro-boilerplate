@@ -1,0 +1,27 @@
+{
+  "name": "revogrid-pivot-react",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@revolist/revogrid": "4.25.2",
+    "@revolist/revogrid-column-date": "^2.0.25",
+    "@revolist/react-datagrid": "4.25.2",
+    "@revolist/pivot": "2.6.3",
+    "@revolist/revogrid-pro": "2.6.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "~6.0.3",
+    "vite": "8.2.1"
+  }
+}

@@ -1,46 +1,43 @@
 # RevoGrid Pro — Boilerplate Examples
 
-Starter templates for [RevoGrid Pro](https://pro.rv-grid.com) plugins across all major frameworks.  
+Starter templates for RevoGrid Pro packages across all major frameworks.
 Each example is a self-contained project you can clone, install, and run in minutes.
 
 ## Examples
 
 | Folder | Plugin | Package |
 |--------|--------|---------|
-| `enterprise-pivot/` | Pivot table with drag-and-drop configurator | `@revolist/revogrid-enterprise` |
-| `pro-tree/` | Hierarchical tree data with expand/collapse | `@revolist/revogrid-pro` |
+| `pivot/` | Pivot table with drag-and-drop configurator | `@revolist/pivot`, plus shared APIs from Pro |
+| `tree/` | Hierarchical tree data with expand/collapse | `@revolist/revogrid-pro` |
 
 Each example is available for five frameworks:
 
 ```
 <framework>/
-  enterprise-pivot/   # Pivot table with drag-and-drop configurator
-  pro-tree/           # Hierarchical tree data with expand/collapse
+  pivot/   # Pivot table with drag-and-drop configurator
+  tree/    # Hierarchical tree data with expand/collapse
 ```
 
 ## Prerequisites
 
-- **Node.js** 18 or later
-- **npm** 9+ (or pnpm / yarn)
-- A valid **RevoGrid Pro / Enterprise licence** — packages are hosted on the private Revolist registry.  
-  Set your token before installing:
+- **Node.js** 22.22.3 or later (required by the Angular 22 starters)
+- **pnpm** 10+
+- The included `.npmrc` points `@revolist` packages to the RevoGrid package registry:
 
   ```bash
-  # ~/.npmrc  (or project .npmrc)
-  @revolist:registry=https://npm.rv-grid.com
-  //npm.rv-grid.com/:_authToken=YOUR_TOKEN_HERE
+  @revolist:registry=https://npm.rv-grid.com/
   ```
 
-  See the [installation guide](https://pro.rv-grid.com/guides/installation/) for full setup instructions and token management.
+  Use the package access supplied with your RevoGrid Pro licence.
 
 ## Quick start
 
 Pick a framework and example:
 
 ```bash
-cd vanilla-ts/enterprise-pivot   # or vue/pro-tree, svelte/enterprise-pivot, etc.
-npm install
-npm run dev
+cd vanilla-ts/pivot   # or vue/tree, svelte/pivot, etc.
+pnpm install
+pnpm dev
 ```
 
 Open the URL printed in the terminal (usually `http://localhost:5173`).
@@ -49,40 +46,40 @@ Open the URL printed in the terminal (usually `http://localhost:5173`).
 
 | Script | Description |
 |--------|-------------|
-| `npm run dev` | Start the Vite dev server with HMR |
-| `npm run build` | Type-check and build for production |
-| `npm run preview` | Preview the production build locally |
+| `pnpm dev` | Start the Vite dev server with HMR |
+| `pnpm build` | Type-check and build for production |
+| `pnpm preview` | Preview the production build locally |
 
 ## Packages used
 
 | Package | Description |
 |---------|-------------|
 | [`@revolist/revogrid`](https://rv-grid.com) | Core grid (Web Component) |
-| `@revolist/revogrid-pro` | Pro plugins: Tree, and more |
-| `@revolist/revogrid-enterprise` | Enterprise plugins: Pivot, and more |
+| `@revolist/pivot` | Direct Pivot API at version 2.6.3 |
+| `@revolist/revogrid-pro` | Shared Pro APIs and Tree API at version 2.6.3 |
 
 ## Project structure
 
 ```
 revogrid-pro-boilerplate/
 ├── angular/
-│   ├── enterprise-pivot/
-│   └── pro-tree/
+│   ├── pivot/
+│   └── tree/
 ├── react/
-│   ├── enterprise-pivot/
-│   └── pro-tree/
+│   ├── pivot/
+│   └── tree/
 ├── svelte/
-│   ├── enterprise-pivot/
-│   └── pro-tree/
+│   ├── pivot/
+│   └── tree/
 ├── vanilla-ts/
-│   ├── enterprise-pivot/
-│   └── pro-tree/
+│   ├── pivot/
+│   └── tree/
 └── vue/
-    ├── enterprise-pivot/
-    └── pro-tree/
+    ├── pivot/
+    └── tree/
 ```
 
 ## Licence
 
 These boilerplate files are MIT-licensed.  
-The RevoGrid Pro and Enterprise packages require a separate commercial licence — see [pro.rv-grid.com](https://pro.rv-grid.com).
+The examples install the commercial RevoGrid Pro packages from `https://npm.rv-grid.com/`.

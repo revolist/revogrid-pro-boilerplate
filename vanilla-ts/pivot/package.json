@@ -1,0 +1,21 @@
+{
+  "name": "revogrid-pivot-vanilla",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@revolist/revogrid": "4.25.2",
+    "@revolist/revogrid-column-date": "^2.0.25",
+    "@revolist/pivot": "2.6.3",
+    "@revolist/revogrid-pro": "2.6.3"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "vite": "8.2.1"
+  }
+}
