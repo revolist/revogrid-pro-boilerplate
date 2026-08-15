@@ -20,7 +20,7 @@ Each example is available for five frameworks:
 
 ## Prerequisites
 
-- **Node.js** 22.22.3 or later (required by the Angular 22 starters)
+- **Node.js** 22.22.3+, 24.15+, or 26.x, matching the Angular 22 compatibility range. Release verification uses Node.js 24.
 - **pnpm** 10+
 - The included `.npmrc` points `@revolist` packages to the RevoGrid package registry:
 
@@ -42,6 +42,11 @@ pnpm dev
 
 Open the URL printed in the terminal (usually `http://localhost:5173`).
 
+Every starter imports package CSS through its public export, for example
+`@revolist/revogrid-pro/styles.css` or `@revolist/pivot/styles.css`. Do not copy
+an internal `dist/*.css` filename into an application; those filenames differ
+between full and trial packages.
+
 ## Available scripts
 
 | Script | Description |
@@ -49,6 +54,17 @@ Open the URL printed in the terminal (usually `http://localhost:5173`).
 | `pnpm dev` | Start the Vite dev server with HMR |
 | `pnpm build` | Type-check and build for production |
 | `pnpm preview` | Preview the production build locally |
+
+From the repository root, maintainers can reproduce the clean compatibility
+gate for every framework and both examples:
+
+```bash
+pnpm verify:starters
+```
+
+The command performs a frozen install and production build in each starter. It
+is intentionally suitable for the separate release verification flow; it does
+not use monorepo workspace packages or an existing root `node_modules` tree.
 
 ## Packages used
 

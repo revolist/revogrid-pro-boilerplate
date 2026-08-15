@@ -17,10 +17,10 @@ yarn-error.log*
 pnpm-debug.log*
 *.log
 
-# Lock files (each sub-project manages its own)
+# pnpm locks are committed for release compatibility verification.
+# Other package-manager locks remain local to avoid conflicting resolutions.
 **/package-lock.json
 **/yarn.lock
-**/pnpm-lock.yaml
 
 # Environment & secrets (never commit tokens)
 .env

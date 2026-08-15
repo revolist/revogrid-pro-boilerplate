@@ -1,0 +1,13 @@
+{
+  "name": "revogrid-pro-boilerplate-verification",
+  "private": true,
+  "packageManager": "pnpm@10.5.2",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || ^26.0.0",
+    "pnpm": ">=10.5.2 <11"
+  },
+  "scripts": {
+    "verify:starters": "node scripts/verify-starters.mjs",
+    "verify:starters:installed": "node scripts/verify-starters.mjs --skip-install"
+  }
+}
