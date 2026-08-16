@@ -12,8 +12,8 @@ importers:
         specifier: 4.25.2
         version: 4.25.2
       '@revolist/revogrid-pro':
-        specifier: 2.6.3
-        version: 2.6.3
+        specifier: 2.7.1
+        version: 2.7.1
       '@revolist/vue3-datagrid':
         specifier: 4.25.2
         version: 4.25.2
@@ -63,14 +63,14 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/revogrid-pro@2.6.3':
-    resolution: {integrity: sha512-CaXT5DiVgk9LhWnaY8ieDqBVgFmp3hTsRzSStK5q8CpM9JtgBask33g4Hedr1XJM4ZHqsCAO6u0sBtcSdmpQkw==, tarball: https://npm.rv-grid.com/@revolist/revogrid-pro/-/d7993b79a3c1e4810123c6dad444e26926c30f0f}
+  '@revolist/revogrid-pro@2.7.1':
+    resolution: {integrity: sha512-OdLBU4EDP3//6BLDm9zX8k1m8ne83FjcI4qgwJONrzMFe8lGL9tzSk5LIUwoQUvyQVXoMru/BqVoMNoQCID/1g==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/f55b612d60603bbcc09ec8070c52beecb61fc9d6}
 
   '@revolist/revogrid@4.25.2':
-    resolution: {integrity: sha512-jypkUPedKfymW6OpwxC8B3u7plYxNjtzQDkOCC4dL5kfDyi4fRNWYiktStu9dRQ2WCC0l7D9WUASBLVX2ajb3Q==, tarball: https://npm.rv-grid.com/@revolist/revogrid/-/1bc27112f1eff458cdf276999cf0c9fb8a99572f}
+    resolution: {integrity: sha512-jypkUPedKfymW6OpwxC8B3u7plYxNjtzQDkOCC4dL5kfDyi4fRNWYiktStu9dRQ2WCC0l7D9WUASBLVX2ajb3Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/1bc27112f1eff458cdf276999cf0c9fb8a99572f}
 
   '@revolist/vue3-datagrid@4.25.2':
-    resolution: {integrity: sha512-m2rM/DmM3Us/6vIXjjGGk9v0+d7g2rsdqn1V3NTcx4RSaHYV/f8c7vxnVxk3TBTI4UQgWS3AXjcrkaxfd4+zYg==, tarball: https://npm.rv-grid.com/@revolist/vue3-datagrid/-/9a11b712fed2880c79ad58f68409f50903df2f0c}
+    resolution: {integrity: sha512-m2rM/DmM3Us/6vIXjjGGk9v0+d7g2rsdqn1V3NTcx4RSaHYV/f8c7vxnVxk3TBTI4UQgWS3AXjcrkaxfd4+zYg==, tarball: http://npm.rv-grid.com/@revolist/vue3-datagrid/-/9a11b712fed2880c79ad58f68409f50903df2f0c}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -472,7 +472,7 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/revogrid-pro@2.6.3':
+  '@revolist/revogrid-pro@2.7.1':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.25.2
