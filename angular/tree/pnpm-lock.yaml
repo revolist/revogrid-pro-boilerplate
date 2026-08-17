@@ -36,8 +36,8 @@ importers:
         specifier: 4.25.2
         version: 4.25.2
       '@revolist/revogrid-pro':
-        specifier: 2.7.1
-        version: 2.7.1
+        specifier: 2.7.4
+        version: 2.7.4
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -1026,7 +1026,7 @@ packages:
   '@revolist/angular-datagrid@4.25.2':
     resolution: {integrity: sha512-4kzw2LU8WcwwoBvmh2OCbIHkO3nwQK8xTo8+MAhYOSMbuSxrMvVwV1gnSitIC9My11H0yjkJHGkV69wPiYJA1w==, tarball: http://npm.rv-grid.com/@revolist/angular-datagrid/-/91be2bb4bae9dc56c5480a135af39bf72b240b38}
 
-  '@revolist/revogrid-pro@2.7.1':
+  '@revolist/revogrid-pro@2.7.4':
     resolution: {integrity: sha512-OdLBU4EDP3//6BLDm9zX8k1m8ne83FjcI4qgwJONrzMFe8lGL9tzSk5LIUwoQUvyQVXoMru/BqVoMNoQCID/1g==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/f55b612d60603bbcc09ec8070c52beecb61fc9d6}
 
   '@revolist/revogrid@4.25.2':
@@ -3043,7 +3043,7 @@ snapshots:
       '@stencil/core': 4.43.5
       tslib: 2.8.1
 
-  '@revolist/revogrid-pro@2.7.1':
+  '@revolist/revogrid-pro@2.7.4':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.25.2
