@@ -71,8 +71,8 @@ not use monorepo workspace packages or an existing root `node_modules` tree.
 | Package | Description |
 |---------|-------------|
 | [`@revolist/revogrid`](https://rv-grid.com) | Core grid (Web Component) |
-| `@revolist/pivot` | Direct Pivot API at version 2.7.4 |
-| `@revolist/revogrid-pro` | Shared Pro APIs and Tree API at version 2.7.4 |
+| `@revolist/pivot` | Direct Pivot API at version 2.7.10 |
+| `@revolist/revogrid-pro` | Shared Pro APIs and Tree API at version 2.7.10 |
 
 ## Project structure
 

@@ -16,7 +16,7 @@
   "dependencies": {
     "@revolist/react-datagrid": "4.25.2",
     "@revolist/revogrid": "4.25.2",
-    "@revolist/revogrid-pro": "2.7.4",
+    "@revolist/revogrid-pro": "2.7.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

@@ -23,8 +23,8 @@
     "@revolist/angular-datagrid": "4.25.2",
     "@revolist/revogrid": "4.25.2",
     "@revolist/revogrid-column-date": "2.0.25",
-    "@revolist/pivot": "2.7.4",
-    "@revolist/revogrid-pro": "2.7.4",
+    "@revolist/pivot": "2.7.10",
+    "@revolist/revogrid-pro": "2.7.10",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@revolist/pivot':
-        specifier: 2.7.4
-        version: 2.7.4
+        specifier: 2.7.10
+        version: 2.7.10
       '@revolist/react-datagrid':
         specifier: 4.25.2
         version: 4.25.2
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.25
         version: 2.0.25
       '@revolist/revogrid-pro':
-        specifier: 2.7.4
-        version: 2.7.4
+        specifier: 2.7.10
+        version: 2.7.10
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -59,8 +59,8 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/pivot@2.7.4':
-    resolution: {integrity: sha512-KwjrBeOkLBfeKIznNA+wbaBQy0m09bgLTkuI/k3H6E8Oy/ps6EeSqnLKM+skimz6y7lD/YfHS4uNr+td+0gc7w==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/763b4cfa837ca321ead529e65924ad40ffb6373a}
+  '@revolist/pivot@2.7.10':
+    resolution: {integrity: sha512-zO3B93ix29SS5A1iohlEMJglaAurmAN71cNYA/ka8ElLzuyCk7JAVlCX9rDlaMFXPXiPk+0UuBaVMmWMBUeLSg==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/7a18fbb3460bfef461352f40aa4c8706ed596807}
 
   '@revolist/react-datagrid@4.25.2':
     resolution: {integrity: sha512-2OZlGC5O5dDp8n9XXHkw8jyWtE34K+27QTqWg2ywdMidglkCwcWRA9/CT4qkOG5OEO6GAnue8mZCDlh+nIleaQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/66e7c6a5b5708a25cc6e83b25216250311929f1a}
@@ -68,8 +68,8 @@ packages:
   '@revolist/revogrid-column-date@2.0.25':
     resolution: {integrity: sha512-5s8Qfxg3yr0IxRNQI6DccbQS1duG9cqvHvlNHsrlVRtnh+l4chY2JLHvccuqc+jqeY4cv0XsAE5cEMLXl82ctg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/7f82a682c715a38e522e0064f256f314f816b733}
 
-  '@revolist/revogrid-pro@2.7.4':
-    resolution: {integrity: sha512-OdLBU4EDP3//6BLDm9zX8k1m8ne83FjcI4qgwJONrzMFe8lGL9tzSk5LIUwoQUvyQVXoMru/BqVoMNoQCID/1g==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/f55b612d60603bbcc09ec8070c52beecb61fc9d6}
+  '@revolist/revogrid-pro@2.7.10':
+    resolution: {integrity: sha512-7bFjZv21whZzcbazh8dtqQoRhZwvQopI0P3Hw9LraqfN0KULwrWurwpk2zD5ZenGD4bC1+CAanvZ9kO4RHeFCQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/bc3296e3b2096295233354cddcb2f07840cc5fc0}
 
   '@revolist/revogrid@4.25.2':
     resolution: {integrity: sha512-jypkUPedKfymW6OpwxC8B3u7plYxNjtzQDkOCC4dL5kfDyi4fRNWYiktStu9dRQ2WCC0l7D9WUASBLVX2ajb3Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/1bc27112f1eff458cdf276999cf0c9fb8a99572f}
@@ -397,11 +397,11 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/pivot@2.7.4':
+  '@revolist/pivot@2.7.10':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
       '@revolist/revogrid': 4.25.2
-      '@revolist/revogrid-pro': 2.7.4
+      '@revolist/revogrid-pro': 2.7.10
 
   '@revolist/react-datagrid@4.25.2':
     dependencies:
@@ -409,7 +409,7 @@ snapshots:
 
   '@revolist/revogrid-column-date@2.0.25': {}
 
-  '@revolist/revogrid-pro@2.7.4':
+  '@revolist/revogrid-pro@2.7.10':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.25.2
