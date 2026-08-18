@@ -12,8 +12,8 @@ importers:
         specifier: 4.25.2
         version: 4.25.2
       '@revolist/revogrid-pro':
-        specifier: 2.7.10
-        version: 2.7.10
+        specifier: 2.7.12
+        version: 2.7.12
       '@revolist/svelte-datagrid':
         specifier: 4.25.2
         version: 4.25.2
@@ -56,8 +56,8 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/revogrid-pro@2.7.10':
-    resolution: {integrity: sha512-7bFjZv21whZzcbazh8dtqQoRhZwvQopI0P3Hw9LraqfN0KULwrWurwpk2zD5ZenGD4bC1+CAanvZ9kO4RHeFCQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/bc3296e3b2096295233354cddcb2f07840cc5fc0}
+  '@revolist/revogrid-pro@2.7.12':
+    resolution: {integrity: sha512-CHx1y6MlfCKOOVoDwQkjtvA5IMQGrVgBXBzKBfGcdrB+j/4+5OVHRzytTKTY9nepNReOjeBw8/FR3UAOnUKZ1A==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/a7c4d504254d008de1a681b315b88096dcc03f24}
 
   '@revolist/revogrid@4.25.2':
     resolution: {integrity: sha512-jypkUPedKfymW6OpwxC8B3u7plYxNjtzQDkOCC4dL5kfDyi4fRNWYiktStu9dRQ2WCC0l7D9WUASBLVX2ajb3Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/1bc27112f1eff458cdf276999cf0c9fb8a99572f}
@@ -443,7 +443,7 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/revogrid-pro@2.7.10':
+  '@revolist/revogrid-pro@2.7.12':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.25.2
