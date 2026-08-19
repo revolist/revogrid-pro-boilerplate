@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@revolist/revogrid": "4.25.2",
-    "@revolist/revogrid-pro": "2.7.12",
+    "@revolist/revogrid-pro": "2.7.13",
     "@revolist/svelte-datagrid": "4.25.2",
     "svelte": "^5.55.7"
   },
