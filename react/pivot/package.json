@@ -14,9 +14,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.25.2",
+    "@revolist/revogrid": "4.27.0",
     "@revolist/revogrid-column-date": "^2.0.25",
-    "@revolist/react-datagrid": "4.25.2",
+    "@revolist/react-datagrid": "4.27.0",
     "@revolist/pivot": "2.7.15",
     "@revolist/revogrid-pro": "2.7.15",
     "react": "^18.3.1",

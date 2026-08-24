@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@revolist/react-datagrid':
-        specifier: 4.25.2
-        version: 4.25.2
+        specifier: 4.27.0
+        version: 4.27.0
       '@revolist/revogrid':
-        specifier: 4.25.2
-        version: 4.25.2
+        specifier: 4.27.0
+        version: 4.27.0
       '@revolist/revogrid-pro':
         specifier: 2.7.15
         version: 2.7.15
@@ -49,14 +49,14 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/react-datagrid@4.25.2':
-    resolution: {integrity: sha512-2OZlGC5O5dDp8n9XXHkw8jyWtE34K+27QTqWg2ywdMidglkCwcWRA9/CT4qkOG5OEO6GAnue8mZCDlh+nIleaQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/66e7c6a5b5708a25cc6e83b25216250311929f1a}
+  '@revolist/react-datagrid@4.27.0':
+    resolution: {integrity: sha512-gdJuMMFlPuwyl/lIdvp8RSuFGBeAzOSqft8f4CEBrp8PYtvKF/pNXsh+hn67qjkrHacx8HUDdJ9yEr4rp5p4cQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/df6ca1acc94a419b58f423ecb1f366bcf0d32dfd}
 
   '@revolist/revogrid-pro@2.7.15':
-    resolution: {integrity: sha512-mOXxVMv2Ix/1FhgEc7lfv7NpZ3Bg/niSbmly05LZ+TGFCkjXNi5cIhq1afFsPI8pfBAt5KzK1rX1uttCUIWnoA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/8a7ba2e91ba0b92d17305ab169307963b3355646}
+    resolution: {integrity: sha512-BW/mTl3NaJpQHsCctNy4paYUEgWGtaQFwtoRlQFcE21mqdM6gAHzkaSN8m2kortRzv/ryGOZZ2IgGsUX8eVuxQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/c8f30a6bb907b2d321ccae322e1c43a6955e4660}
 
-  '@revolist/revogrid@4.25.2':
-    resolution: {integrity: sha512-jypkUPedKfymW6OpwxC8B3u7plYxNjtzQDkOCC4dL5kfDyi4fRNWYiktStu9dRQ2WCC0l7D9WUASBLVX2ajb3Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/1bc27112f1eff458cdf276999cf0c9fb8a99572f}
+  '@revolist/revogrid@4.27.0':
+    resolution: {integrity: sha512-e8Ni/3/CV9zI8RQzjQd3rWUBHJA2YzoE99Lf22svuUBV38SMIP10SQgUk0385oE3SIl88cXcKXQjIXNNQZDHFQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/76642d9a8ceaf7e81ad94f5c5b880ead0fd7445a}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -379,17 +379,17 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/react-datagrid@4.25.2':
+  '@revolist/react-datagrid@4.27.0':
     dependencies:
-      '@revolist/revogrid': 4.25.2
+      '@revolist/revogrid': 4.27.0
 
   '@revolist/revogrid-pro@2.7.15':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.25.2
+      '@revolist/revogrid': 4.27.0
       write-excel-file: 4.1.1
 
-  '@revolist/revogrid@4.25.2': {}
+  '@revolist/revogrid@4.27.0': {}
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true
