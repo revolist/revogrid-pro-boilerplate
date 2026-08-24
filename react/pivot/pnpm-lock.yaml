@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@revolist/pivot':
-        specifier: 2.7.13
-        version: 2.7.13
+        specifier: 2.7.15
+        version: 2.7.15
       '@revolist/react-datagrid':
         specifier: 4.25.2
         version: 4.25.2
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.25
         version: 2.0.25
       '@revolist/revogrid-pro':
-        specifier: 2.7.13
-        version: 2.7.13
+        specifier: 2.7.15
+        version: 2.7.15
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -59,7 +59,7 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/pivot@2.7.13':
+  '@revolist/pivot@2.7.15':
     resolution: {integrity: sha512-2FIfSQjx3Yam24bldHtqTYpYU08ZjN6N8a4hXnTznOAeau2ZKmsCl41m3RHi3rsjO1Ht2tcU1BqHMYYuL/JCRw==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/2e5f3d9a027dcc2cce59bac34588e43d059108e5}
 
   '@revolist/react-datagrid@4.25.2':
@@ -68,7 +68,7 @@ packages:
   '@revolist/revogrid-column-date@2.0.25':
     resolution: {integrity: sha512-5s8Qfxg3yr0IxRNQI6DccbQS1duG9cqvHvlNHsrlVRtnh+l4chY2JLHvccuqc+jqeY4cv0XsAE5cEMLXl82ctg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/7f82a682c715a38e522e0064f256f314f816b733}
 
-  '@revolist/revogrid-pro@2.7.13':
+  '@revolist/revogrid-pro@2.7.15':
     resolution: {integrity: sha512-mOXxVMv2Ix/1FhgEc7lfv7NpZ3Bg/niSbmly05LZ+TGFCkjXNi5cIhq1afFsPI8pfBAt5KzK1rX1uttCUIWnoA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/8a7ba2e91ba0b92d17305ab169307963b3355646}
 
   '@revolist/revogrid@4.25.2':
@@ -397,11 +397,11 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/pivot@2.7.13':
+  '@revolist/pivot@2.7.15':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
       '@revolist/revogrid': 4.25.2
-      '@revolist/revogrid-pro': 2.7.13
+      '@revolist/revogrid-pro': 2.7.15
 
   '@revolist/react-datagrid@4.25.2':
     dependencies:
@@ -409,7 +409,7 @@ snapshots:
 
   '@revolist/revogrid-column-date@2.0.25': {}
 
-  '@revolist/revogrid-pro@2.7.13':
+  '@revolist/revogrid-pro@2.7.15':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.25.2

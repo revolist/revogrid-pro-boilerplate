@@ -16,8 +16,8 @@
   "dependencies": {
     "@revolist/revogrid": "4.25.2",
     "@revolist/revogrid-column-date": "^2.0.25",
-    "@revolist/pivot": "2.7.13",
-    "@revolist/revogrid-pro": "2.7.13"
+    "@revolist/pivot": "2.7.15",
+    "@revolist/revogrid-pro": "2.7.15"
   },
   "devDependencies": {
     "typescript": "~6.0.3",
