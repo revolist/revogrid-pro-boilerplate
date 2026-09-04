@@ -15,8 +15,8 @@ importers:
         specifier: 4.27.0
         version: 4.27.0
       '@revolist/revogrid-pro':
-        specifier: 2.7.15
-        version: 2.7.15
+        specifier: 2.8.2
+        version: 2.8.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -52,11 +52,14 @@ packages:
   '@revolist/react-datagrid@4.27.0':
     resolution: {integrity: sha512-gdJuMMFlPuwyl/lIdvp8RSuFGBeAzOSqft8f4CEBrp8PYtvKF/pNXsh+hn67qjkrHacx8HUDdJ9yEr4rp5p4cQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/df6ca1acc94a419b58f423ecb1f366bcf0d32dfd}
 
-  '@revolist/revogrid-pro@2.7.15':
-    resolution: {integrity: sha512-BW/mTl3NaJpQHsCctNy4paYUEgWGtaQFwtoRlQFcE21mqdM6gAHzkaSN8m2kortRzv/ryGOZZ2IgGsUX8eVuxQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/c8f30a6bb907b2d321ccae322e1c43a6955e4660}
+  '@revolist/revogrid-pro@2.8.2':
+    resolution: {integrity: sha512-9vr5zeWYWq/RAA74eRtzwIOOuNyv+MZwjNBTuvZDogKesk4H6jBPBOzhScYMLWX3hA37zALuygBK+4zBUENChA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/91de83ae11cc1514ec7aada8b526ccae74cddce6}
 
   '@revolist/revogrid@4.27.0':
     resolution: {integrity: sha512-e8Ni/3/CV9zI8RQzjQd3rWUBHJA2YzoE99Lf22svuUBV38SMIP10SQgUk0385oE3SIl88cXcKXQjIXNNQZDHFQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/76642d9a8ceaf7e81ad94f5c5b880ead0fd7445a}
+
+  '@revolist/revogrid@4.27.6':
+    resolution: {integrity: sha512-PNRxT3plZ5q5QXEThCXxI53KXsKje2VtgOEY7nYM85Jt7KzU7KDOwQ+g20Z7MX+fseKML8vL2ExsyL3VaE1WkA==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/dd7f570a59450927e6bf491eebb73cf9e9f9a77b}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -383,13 +386,15 @@ snapshots:
     dependencies:
       '@revolist/revogrid': 4.27.0
 
-  '@revolist/revogrid-pro@2.7.15':
+  '@revolist/revogrid-pro@2.8.2':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.27.0
+      '@revolist/revogrid': 4.27.6
       write-excel-file: 4.1.1
 
   '@revolist/revogrid@4.27.0': {}
+
+  '@revolist/revogrid@4.27.6': {}
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true

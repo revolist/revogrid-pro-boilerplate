@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@revolist/revogrid": "4.27.0",
-    "@revolist/revogrid-pro": "2.7.15"
+    "@revolist/revogrid-pro": "2.8.2"
   },
   "devDependencies": {
     "typescript": "~6.0.3",

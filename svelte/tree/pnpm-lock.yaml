@@ -12,8 +12,8 @@ importers:
         specifier: 4.27.0
         version: 4.27.0
       '@revolist/revogrid-pro':
-        specifier: 2.7.15
-        version: 2.7.15
+        specifier: 2.8.2
+        version: 2.8.2
       '@revolist/svelte-datagrid':
         specifier: 4.27.0
         version: 4.27.0
@@ -56,11 +56,14 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/revogrid-pro@2.7.15':
-    resolution: {integrity: sha512-BW/mTl3NaJpQHsCctNy4paYUEgWGtaQFwtoRlQFcE21mqdM6gAHzkaSN8m2kortRzv/ryGOZZ2IgGsUX8eVuxQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/c8f30a6bb907b2d321ccae322e1c43a6955e4660}
+  '@revolist/revogrid-pro@2.8.2':
+    resolution: {integrity: sha512-9vr5zeWYWq/RAA74eRtzwIOOuNyv+MZwjNBTuvZDogKesk4H6jBPBOzhScYMLWX3hA37zALuygBK+4zBUENChA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/91de83ae11cc1514ec7aada8b526ccae74cddce6}
 
   '@revolist/revogrid@4.27.0':
     resolution: {integrity: sha512-e8Ni/3/CV9zI8RQzjQd3rWUBHJA2YzoE99Lf22svuUBV38SMIP10SQgUk0385oE3SIl88cXcKXQjIXNNQZDHFQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/76642d9a8ceaf7e81ad94f5c5b880ead0fd7445a}
+
+  '@revolist/revogrid@4.27.6':
+    resolution: {integrity: sha512-PNRxT3plZ5q5QXEThCXxI53KXsKje2VtgOEY7nYM85Jt7KzU7KDOwQ+g20Z7MX+fseKML8vL2ExsyL3VaE1WkA==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/dd7f570a59450927e6bf491eebb73cf9e9f9a77b}
 
   '@revolist/svelte-datagrid@4.27.0':
     resolution: {integrity: sha512-YaEFUluicn7DN/skB45UDbToxBXdzagqlBL1Hj55e7b6B+85qMlquRmvz993hAEZziBeeEFuxYcLyXBeGkOeNg==, tarball: http://npm.rv-grid.com/@revolist/svelte-datagrid/-/c6a1850f7edfd745eed89024435589fac6f1f735}
@@ -443,13 +446,15 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/revogrid-pro@2.7.15':
+  '@revolist/revogrid-pro@2.8.2':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.27.0
+      '@revolist/revogrid': 4.27.6
       write-excel-file: 4.1.1
 
   '@revolist/revogrid@4.27.0': {}
+
+  '@revolist/revogrid@4.27.6': {}
 
   '@revolist/svelte-datagrid@4.27.0':
     dependencies:
