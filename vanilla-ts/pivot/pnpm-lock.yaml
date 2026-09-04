@@ -12,8 +12,8 @@ importers:
         specifier: 2.8.2
         version: 2.8.2
       '@revolist/revogrid':
-        specifier: 4.27.0
-        version: 4.27.0
+        specifier: 4.27.6
+        version: 4.27.6
       '@revolist/revogrid-column-date':
         specifier: ^2.0.25
         version: 2.0.25
@@ -49,9 +49,6 @@ packages:
 
   '@revolist/revogrid-pro@2.8.2':
     resolution: {integrity: sha512-9vr5zeWYWq/RAA74eRtzwIOOuNyv+MZwjNBTuvZDogKesk4H6jBPBOzhScYMLWX3hA37zALuygBK+4zBUENChA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/91de83ae11cc1514ec7aada8b526ccae74cddce6}
-
-  '@revolist/revogrid@4.27.0':
-    resolution: {integrity: sha512-e8Ni/3/CV9zI8RQzjQd3rWUBHJA2YzoE99Lf22svuUBV38SMIP10SQgUk0385oE3SIl88cXcKXQjIXNNQZDHFQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/76642d9a8ceaf7e81ad94f5c5b880ead0fd7445a}
 
   '@revolist/revogrid@4.27.6':
     resolution: {integrity: sha512-PNRxT3plZ5q5QXEThCXxI53KXsKje2VtgOEY7nYM85Jt7KzU7KDOwQ+g20Z7MX+fseKML8vL2ExsyL3VaE1WkA==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/dd7f570a59450927e6bf491eebb73cf9e9f9a77b}
@@ -346,8 +343,6 @@ snapshots:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.27.6
       write-excel-file: 4.1.1
-
-  '@revolist/revogrid@4.27.0': {}
 
   '@revolist/revogrid@4.27.6': {}
 

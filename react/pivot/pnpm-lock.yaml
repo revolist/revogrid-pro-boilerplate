@@ -15,8 +15,8 @@ importers:
         specifier: 4.27.0
         version: 4.27.0
       '@revolist/revogrid':
-        specifier: 4.27.0
-        version: 4.27.0
+        specifier: 4.27.6
+        version: 4.27.6
       '@revolist/revogrid-column-date':
         specifier: ^2.0.25
         version: 2.0.25

@@ -14,7 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.27.0",
+    "@revolist/revogrid": "4.27.6",
     "@revolist/revogrid-pro": "2.8.2"
   },
   "devDependencies": {
