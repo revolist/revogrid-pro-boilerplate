@@ -15,8 +15,8 @@ importers:
         specifier: 4.27.6
         version: 4.27.6
       '@revolist/revogrid-pro':
-        specifier: 2.8.2
-        version: 2.8.2
+        specifier: 2.8.4
+        version: 2.8.4
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -52,7 +52,7 @@ packages:
   '@revolist/react-datagrid@4.27.0':
     resolution: {integrity: sha512-gdJuMMFlPuwyl/lIdvp8RSuFGBeAzOSqft8f4CEBrp8PYtvKF/pNXsh+hn67qjkrHacx8HUDdJ9yEr4rp5p4cQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/df6ca1acc94a419b58f423ecb1f366bcf0d32dfd}
 
-  '@revolist/revogrid-pro@2.8.2':
+  '@revolist/revogrid-pro@2.8.4':
     resolution: {integrity: sha512-9vr5zeWYWq/RAA74eRtzwIOOuNyv+MZwjNBTuvZDogKesk4H6jBPBOzhScYMLWX3hA37zALuygBK+4zBUENChA==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/91de83ae11cc1514ec7aada8b526ccae74cddce6}
 
   '@revolist/revogrid@4.27.0':
@@ -386,7 +386,7 @@ snapshots:
     dependencies:
       '@revolist/revogrid': 4.27.0
 
-  '@revolist/revogrid-pro@2.8.2':
+  '@revolist/revogrid-pro@2.8.4':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.27.6
