@@ -22,7 +22,7 @@
     "@angular/router": "^22.1.0",
     "@revolist/angular-datagrid": "4.27.0",
     "@revolist/revogrid": "4.27.6",
-    "@revolist/revogrid-pro": "2.8.5",
+    "@revolist/revogrid-pro": "2.8.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
