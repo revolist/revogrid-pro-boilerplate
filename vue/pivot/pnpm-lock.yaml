@@ -15,8 +15,8 @@ importers:
         specifier: 4.27.10
         version: 4.27.10
       '@revolist/revogrid-column-date':
-        specifier: ^2.0.25
-        version: 2.0.25
+        specifier: ^2.0.27
+        version: 2.0.27
       '@revolist/revogrid-pro':
         specifier: 2.9.1
         version: 2.9.1
@@ -76,8 +76,8 @@ packages:
   '@revolist/pivot@2.9.1':
     resolution: {integrity: sha512-sepLcvVe4U1WTAHXP0ubJ9N3j94SRTWORAnoD9RRncnL1IGRDz/agTWPs7qufRNRbL2N/SH/0an1LLDgBplGlQ==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/da0cff2b6a87d9dbf81972d1e5aac108577268d6}
 
-  '@revolist/revogrid-column-date@2.0.25':
-    resolution: {integrity: sha512-5s8Qfxg3yr0IxRNQI6DccbQS1duG9cqvHvlNHsrlVRtnh+l4chY2JLHvccuqc+jqeY4cv0XsAE5cEMLXl82ctg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/7f82a682c715a38e522e0064f256f314f816b733}
+  '@revolist/revogrid-column-date@2.0.27':
+    resolution: {integrity: sha512-zb77cKO8Z2We1NxoSKx7hIGTsVjb/GHOsJdSkAUg/ks3ZMBlJYohbdJ9TlTyrE/i7eVEpeWabHEAScbN4aVbjg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/aa2b839a727b17a0b59f9ab739fe035b3ce86a9a}
 
   '@revolist/revogrid-pro@2.9.1':
     resolution: {integrity: sha512-MpkNLrZlmL4kig+j6UKMcL64PB9eA5YJWxTQKnYx4EMoUQM0tNOvwRudymVOzxJK4y3dkYhCR+rIUG8T7BtFqw==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/d67d1eea0c007d98af072c1fc0a289075d78a078}
@@ -502,7 +502,7 @@ snapshots:
       '@revolist/revogrid': 4.28.0
       '@revolist/revogrid-pro': 2.9.1
 
-  '@revolist/revogrid-column-date@2.0.25': {}
+  '@revolist/revogrid-column-date@2.0.27': {}
 
   '@revolist/revogrid-pro@2.9.1':
     dependencies:
