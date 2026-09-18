@@ -36,8 +36,8 @@ importers:
         specifier: 4.27.10
         version: 4.27.10
       '@revolist/revogrid-pro':
-        specifier: 2.9.1
-        version: 2.9.1
+        specifier: 2.9.5
+        version: 2.9.5
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -1026,8 +1026,8 @@ packages:
   '@revolist/angular-datagrid@4.27.0':
     resolution: {integrity: sha512-U0L2lMt1Y8A6kN/Gnlc9Q5zpBOVUoTN8QKCIX+/b7KG+SrZISO5p3pyMN5/WAIAZiY0lHYJ/4VgcsdBFMunvKQ==, tarball: http://npm.rv-grid.com/@revolist/angular-datagrid/-/af705b83d3e3af6ed2de3153814e2a6a52d637d9}
 
-  '@revolist/revogrid-pro@2.9.1':
-    resolution: {integrity: sha512-MpkNLrZlmL4kig+j6UKMcL64PB9eA5YJWxTQKnYx4EMoUQM0tNOvwRudymVOzxJK4y3dkYhCR+rIUG8T7BtFqw==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/d67d1eea0c007d98af072c1fc0a289075d78a078}
+  '@revolist/revogrid-pro@2.9.5':
+    resolution: {integrity: sha512-wE2fZTdtuLAcStYlNdtYnW5kOzEFB+g7M8uNznxMlWt0ZoDjogRMWuKaDNPr3Qba+Ik213lXgx1sMCWFUfdy+w==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/2dfc2271bad81e3b8bb5139434411c988dfea131}
 
   '@revolist/revogrid@4.27.0':
     resolution: {integrity: sha512-e8Ni/3/CV9zI8RQzjQd3rWUBHJA2YzoE99Lf22svuUBV38SMIP10SQgUk0385oE3SIl88cXcKXQjIXNNQZDHFQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/76642d9a8ceaf7e81ad94f5c5b880ead0fd7445a}
@@ -3049,7 +3049,7 @@ snapshots:
       '@stencil/core': 4.43.5
       tslib: 2.8.1
 
-  '@revolist/revogrid-pro@2.9.1':
+  '@revolist/revogrid-pro@2.9.5':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.28.0
