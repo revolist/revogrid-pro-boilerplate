@@ -3,6 +3,7 @@
     <RevoGrid
       style="height: 100%"
       theme="material"
+      :col-size="170"
       resize
       readonly
       :source="source"

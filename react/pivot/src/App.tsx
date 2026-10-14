@@ -58,6 +58,7 @@ const App: React.FC = () => {
         ref={gridRef}
         style={{ flex: 1 }}
         theme="material"
+        colSize={170}
         resize={true}
         readonly={true}
         source={source}

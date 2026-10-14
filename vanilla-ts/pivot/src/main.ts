@@ -41,6 +41,7 @@ const pivotConfig: PivotConfig = {
 
 const grid = document.createElement('revo-grid') as HTMLRevoGridElement;
 grid.theme = 'material';
+grid.colSize = 170;
 grid.resize = true;
 grid.readonly = true;
 grid.plugins = [PivotPlugin];

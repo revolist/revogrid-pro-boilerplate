@@ -31,6 +31,7 @@ const INITIAL_PIVOT: PivotConfig = {
         style="height: 100%"
         theme="material"
         [resize]="true"
+        [colSize]="170"
         [readonly]="true"
         [source]="source"
         [plugins]="plugins"

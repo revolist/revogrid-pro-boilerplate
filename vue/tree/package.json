@@ -14,9 +14,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.27.10",
-    "@revolist/revogrid-pro": "2.9.5",
-    "@revolist/vue3-datagrid": "4.27.0",
+    "@revolist/revogrid": "4.28.3",
+    "@revolist/revogrid-pro": "2.10.0",
+    "@revolist/vue3-datagrid": "4.28.0",
     "vue": "^3.5.33"
   },
   "devDependencies": {
@@ -24,5 +24,10 @@
     "typescript": "~6.0.3",
     "vite": "8.2.1",
     "vue-tsc": "^2.2.10"
+  },
+  "pnpm": {
+    "overrides": {
+      "@revolist/revogrid": "4.28.3"
+    }
   }
 }

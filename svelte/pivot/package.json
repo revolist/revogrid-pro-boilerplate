@@ -14,10 +14,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.27.10",
-    "@revolist/pivot": "2.9.5",
-    "@revolist/revogrid-pro": "2.9.5",
-    "@revolist/svelte-datagrid": "4.27.0",
+    "@revolist/revogrid": "4.28.3",
+    "@revolist/pivot": "2.10.0",
+    "@revolist/revogrid-pro": "2.10.0",
+    "@revolist/svelte-datagrid": "4.28.0",
     "@revolist/revogrid-column-date": "^2.0.27",
     "svelte": "^5.55.7"
   },
@@ -25,5 +25,10 @@
     "@sveltejs/vite-plugin-svelte": "^7.2.0",
     "typescript": "~6.0.3",
     "vite": "8.2.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@revolist/revogrid": "4.28.3"
+    }
   }
 }
