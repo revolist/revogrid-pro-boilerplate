@@ -16,8 +16,8 @@
   "dependencies": {
     "@revolist/revogrid": "4.28.3",
     "@revolist/revogrid-column-date": "^2.0.27",
-    "@revolist/pivot": "2.10.0",
-    "@revolist/revogrid-pro": "2.10.0",
+    "@revolist/pivot": "3.0.0",
+    "@revolist/revogrid-pro": "3.0.0",
     "@revolist/vue3-datagrid": "4.28.0",
     "vue": "^3.5.33"
   },
