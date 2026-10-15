@@ -20,8 +20,8 @@
     "@angular/platform-browser": "^22.1.0",
     "@angular/platform-browser-dynamic": "^22.1.0",
     "@angular/router": "^22.1.0",
-    "@revolist/angular-datagrid": "4.28.0",
-    "@revolist/revogrid": "4.28.3",
+    "@revolist/angular-datagrid": "4.29.0",
+    "@revolist/revogrid": "4.29.0",
     "@revolist/revogrid-column-date": "2.0.27",
     "@revolist/pivot": "3.0.0",
     "@revolist/revogrid-pro": "3.0.0",
@@ -37,7 +37,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@revolist/revogrid": "4.28.3"
+      "@revolist/revogrid": "4.29.0"
     }
   }
 }
