@@ -5,15 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@revolist/revogrid': 4.28.3
+  '@revolist/revogrid': 4.29.0
 
 importers:
 
   .:
     dependencies:
       '@revolist/revogrid':
-        specifier: 4.28.3
-        version: 4.28.3
+        specifier: 4.29.0
+        version: 4.29.0
       '@revolist/revogrid-pro':
         specifier: 2.10.0
         version: 2.10.0
@@ -37,8 +37,8 @@ packages:
   '@revolist/revogrid-pro@2.10.0':
     resolution: {integrity: sha512-p8N483XPbxtg+dSDiev41tNd3vWzARFTIUbstfNOih/N7YqyEbqFlkRdhA/eu/AZmTa3tmX9MbM33YSVEhgExg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/355c08998d289438373a7fa28aaf470666f9dda7}
 
-  '@revolist/revogrid@4.28.3':
-    resolution: {integrity: sha512-nyJQiqRsuqC9Rs44yG6HO4SUvdwp4AQTTH6hXVFTV4hU1oErl4WY0e+9VrXzRY7LxDRqm7ouadepeX2bWTlQMg==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/c2516b9c4142b9c6b855a9ba75a3dbae800dd7bf}
+  '@revolist/revogrid@4.29.0':
+    resolution: {integrity: sha512-LpnIXaOd4/UVcNK9ZRAIgXP1f+mkGwFCPu6Fii/pGrlqa+QqRNN4r51Iwe+4KAG913SSjutgkHqBURRphtRO2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/25df917795e4a2ef5b56bc35221f1ea06f289653}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -318,10 +318,10 @@ snapshots:
   '@revolist/revogrid-pro@2.10.0':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.28.3
+      '@revolist/revogrid': 4.29.0
       write-excel-file: 4.1.1
 
-  '@revolist/revogrid@4.28.3': {}
+  '@revolist/revogrid@4.29.0': {}
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true

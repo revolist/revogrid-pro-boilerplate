@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@revolist/revogrid': 4.28.3
+  '@revolist/revogrid': 4.29.0
 
 importers:
 
@@ -15,8 +15,8 @@ importers:
         specifier: 2.10.0
         version: 2.10.0
       '@revolist/revogrid':
-        specifier: 4.28.3
-        version: 4.28.3
+        specifier: 4.29.0
+        version: 4.29.0
       '@revolist/revogrid-column-date':
         specifier: ^2.0.27
         version: 2.0.27
@@ -24,8 +24,8 @@ importers:
         specifier: 2.10.0
         version: 2.10.0
       '@revolist/vue3-datagrid':
-        specifier: 4.28.0
-        version: 4.28.0
+        specifier: 4.29.0
+        version: 4.29.0
       vue:
         specifier: ^3.5.33
         version: 3.5.41(typescript@6.0.3)
@@ -85,11 +85,11 @@ packages:
   '@revolist/revogrid-pro@2.10.0':
     resolution: {integrity: sha512-p8N483XPbxtg+dSDiev41tNd3vWzARFTIUbstfNOih/N7YqyEbqFlkRdhA/eu/AZmTa3tmX9MbM33YSVEhgExg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/355c08998d289438373a7fa28aaf470666f9dda7}
 
-  '@revolist/revogrid@4.28.3':
-    resolution: {integrity: sha512-nyJQiqRsuqC9Rs44yG6HO4SUvdwp4AQTTH6hXVFTV4hU1oErl4WY0e+9VrXzRY7LxDRqm7ouadepeX2bWTlQMg==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/c2516b9c4142b9c6b855a9ba75a3dbae800dd7bf}
+  '@revolist/revogrid@4.29.0':
+    resolution: {integrity: sha512-LpnIXaOd4/UVcNK9ZRAIgXP1f+mkGwFCPu6Fii/pGrlqa+QqRNN4r51Iwe+4KAG913SSjutgkHqBURRphtRO2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/25df917795e4a2ef5b56bc35221f1ea06f289653}
 
-  '@revolist/vue3-datagrid@4.28.0':
-    resolution: {integrity: sha512-I9qFcL8eidbzykbSJmKxXL1IHhfekwNqrktTOL9TjipdQ73/KeOAbsPSNLlLT7s9BAzyPeLfHZZA/ySCHG1vEA==, tarball: http://npm.rv-grid.com/@revolist/vue3-datagrid/-/e9cad48c666a71e2e81fb5680e7ffe42e72b67e2}
+  '@revolist/vue3-datagrid@4.29.0':
+    resolution: {integrity: sha512-Sw9WKahEbCTTBBKFznXoxwh08v8nOgaAh8++G+YBxpPTN1B4suhAEcML9w2LGKpGbE6a+oVWBNPrC46nwSAkmw==, tarball: http://npm.rv-grid.com/@revolist/vue3-datagrid/-/afc05761b01aa5cce00301eadc70099f4e85d420}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -499,7 +499,7 @@ snapshots:
   '@revolist/pivot@2.10.0':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
-      '@revolist/revogrid': 4.28.3
+      '@revolist/revogrid': 4.29.0
       '@revolist/revogrid-pro': 2.10.0
       fflate: 0.8.2
 
@@ -508,14 +508,14 @@ snapshots:
   '@revolist/revogrid-pro@2.10.0':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.28.3
+      '@revolist/revogrid': 4.29.0
       write-excel-file: 4.1.1
 
-  '@revolist/revogrid@4.28.3': {}
+  '@revolist/revogrid@4.29.0': {}
 
-  '@revolist/vue3-datagrid@4.28.0':
+  '@revolist/vue3-datagrid@4.29.0':
     dependencies:
-      '@revolist/revogrid': 4.28.3
+      '@revolist/revogrid': 4.29.0
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true
