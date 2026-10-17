@@ -17,8 +17,8 @@
     "@revolist/revogrid": "4.29.0",
     "@revolist/revogrid-column-date": "^2.0.27",
     "@revolist/react-datagrid": "4.29.0",
-    "@revolist/pivot": "3.0.0",
-    "@revolist/revogrid-pro": "3.0.0",
+    "@revolist/pivot": "3.0.6",
+    "@revolist/revogrid-pro": "3.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

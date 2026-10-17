@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@revolist/pivot':
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.0.6
+        version: 3.0.6
       '@revolist/revogrid':
         specifier: 4.29.0
         version: 4.29.0
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.27
         version: 2.0.27
       '@revolist/revogrid-pro':
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.0.6
+        version: 3.0.6
       '@revolist/vue3-datagrid':
         specifier: 4.29.0
         version: 4.29.0
@@ -32,13 +32,13 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.8
-        version: 6.0.8(vite@8.2.1)(vue@3.5.41(typescript@6.0.3))
+        version: 6.0.8(vite@8.2.1(@types/node@26.6.5))(vue@3.5.41(typescript@6.0.3))
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
       vite:
         specifier: 8.2.1
-        version: 8.2.1
+        version: 8.2.1(@types/node@26.6.5)
       vue-tsc:
         specifier: ^2.2.10
         version: 2.2.12(typescript@6.0.3)
@@ -76,17 +76,17 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/charts@3.0.0':
-    resolution: {integrity: sha512-Rib+CfF85ShfYkIOYf8oYU95JbYDDZp7t+2SNqRtIFc5qpT1RB0S5P2eiW58vdIYOZTigT8i9Mc9rsfgj0bYmg==, tarball: http://npm.rv-grid.com/@revolist/charts/-/484ce5139351a1ab241ae3cbea0f22217f2d463a}
+  '@revolist/charts@3.0.6':
+    resolution: {integrity: sha512-Tf52Ae/o35dRju6eRWFxyKvqPn7VZgTm7mcqukCOa7po5OniQA74T7yrk/YlWDuytusGaLALhEuXnx1UFkvCbQ==, tarball: http://npm.rv-grid.com/@revolist/charts/-/b8787d9a9a702cefdbe5c73bae36eb73b6bc77c2}
 
-  '@revolist/pivot@3.0.0':
-    resolution: {integrity: sha512-J7z3FE4uCbdTcNo63tH3nXJzoUn24sL8PNDraS95ycz247MYjo2xZ8j7EzekbbWHdzezp7mlozCWyu9qaljK7w==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/dd23c1efd620d784fd44392e84496b4d0da3adc5}
+  '@revolist/pivot@3.0.6':
+    resolution: {integrity: sha512-D7CzVcZV1RM9me5CLpW8ZXEyTOtazeEmlKjTe6vRFldTIyb5Hm8rI9KFOPqfE12cCQiD6RMvd4lU7Fnbrlvqgw==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/3264e38f93c91e53d8a8f494bc6bc5ce7cab583b}
 
   '@revolist/revogrid-column-date@2.0.27':
     resolution: {integrity: sha512-zb77cKO8Z2We1NxoSKx7hIGTsVjb/GHOsJdSkAUg/ks3ZMBlJYohbdJ9TlTyrE/i7eVEpeWabHEAScbN4aVbjg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/aa2b839a727b17a0b59f9ab739fe035b3ce86a9a}
 
-  '@revolist/revogrid-pro@3.0.0':
-    resolution: {integrity: sha512-RpgiimKA3nrbZFnojnb/qgNtPG446OBGLoSpLfOWJh80j+OcMhJaLIfm2u5vzaSB5def8K5UOrQIor2lVgf45w==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/b29afb07506ccf0e9d7a126e5a0088538ec0e628}
+  '@revolist/revogrid-pro@3.0.6':
+    resolution: {integrity: sha512-5chsp4apl0SEgfJsffF+sf1s/F3BSP8UBH7J7KWFFhOQDH0g2XWWYH+wtBAODAjDPqmCCEi+YOOZMVGPsI6nvg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/51281bc134b0c7cf0a64f73d67bca4bc2ad9274e}
 
   '@revolist/revogrid@4.29.0':
     resolution: {integrity: sha512-LpnIXaOd4/UVcNK9ZRAIgXP1f+mkGwFCPu6Fii/pGrlqa+QqRNN4r51Iwe+4KAG913SSjutgkHqBURRphtRO2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/25df917795e4a2ef5b56bc35221f1ea06f289653}
@@ -181,6 +181,15 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
+  '@types/node@26.6.5':
+    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
+
+  '@types/whatwg-mimetype@3.0.2':
+    resolution: {integrity: sha512-c2AKvDT8ToxLIOUlN51gTiHXflsfIFisS4pO7pDPoKouJCESkhZnEy623gwP9laCy5lnLDAw1vAzu2vM2YLOrA==}
+
+  '@types/ws@8.18.2':
+    resolution: {integrity: sha512-67MQl+fpWKVTT1NYdnmo3U4sc/xPo/zQBncVnI74qmQa0z/b+1g6iYqNmGCPbxO+zz2aklb08a0oHfegiVd0/w==}
+
   '@vitejs/plugin-vue@6.0.8':
     resolution: {integrity: sha512-0ZjgOg7oO6farnNGup7yvoM/YXZV84OZxHAwtflItNa/6zzQyVb5LNxyea3FEKEX2XlagIKzrlH7wwxkKgtiew==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -248,8 +257,20 @@ packages:
   brace-expansion@2.1.4:
     resolution: {integrity: sha512-hGfVzPxthbf3+2yjg/RBs60cB0FhqBS/zvdV/4wn4/BmN0bNMMHPc4V/BbFieqf1TKAGGAHnY4eSjajCl0f2Xg==}
 
+  buffer-image-size@0.6.4:
+    resolution: {integrity: sha512-nEh+kZOPY1w+gcCMobZ6ETUp9WfibndnosbpwB1iJk/8Gt5ZF2bhS6+B6bPYz424KtwsR6Rflc3tCz1/ghX2dQ==}
+    engines: {node: '>=4.0'}
+
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  d3-path@3.1.0:
+    resolution: {integrity: sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==}
+    engines: {node: '>=12'}
+
+  d3-shape@3.2.0:
+    resolution: {integrity: sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==}
+    engines: {node: '>=12'}
 
   de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
@@ -284,6 +305,10 @@ packages:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+
+  happy-dom@20.14.6:
+    resolution: {integrity: sha512-5DDsf4QmEIlRL6NkCv/fxSjYHHkZceL/IaYQdJc2h3G7DRTEai++VTjbfL0LB9geW2VrA3+vrjF3Efx+OTtX0Q==}
+    engines: {node: '>=20.0.0'}
 
   he@1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
@@ -409,6 +434,9 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
+
   vite@8.2.1:
     resolution: {integrity: sha512-EU/eS7BH3XROHh2YnBefjM6DBKA6ZeMZEYQbj7NLWg5wHYlhB8B/Mayd5XsgWq+NFYccDOTemRpdETWR6Ka/lw==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -469,9 +497,25 @@ packages:
       typescript:
         optional: true
 
+  whatwg-mimetype@3.0.0:
+    resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
+    engines: {node: '>=12'}
+
   write-excel-file@4.1.1:
     resolution: {integrity: sha512-MUnCnNtQrcZek832ZcU24uU0rSphFmKPD1DvIjXOlygVb93CV7Tme6H3jUTkxsMmjB2W7HIzERzjqTi5kui71A==}
     engines: {node: '>=18'}
+
+  ws@8.22.0:
+    resolution: {integrity: sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
 
 snapshots:
 
@@ -499,21 +543,29 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/charts@3.0.0':
+  '@revolist/charts@3.0.6':
     dependencies:
+      d3-shape: 3.2.0
       fflate: 0.8.2
+      happy-dom: 20.14.6
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
-  '@revolist/pivot@3.0.0':
+  '@revolist/pivot@3.0.6':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
-      '@revolist/charts': 3.0.0
+      '@revolist/charts': 3.0.6
       '@revolist/revogrid': 4.29.0
-      '@revolist/revogrid-pro': 3.0.0
+      '@revolist/revogrid-pro': 3.0.6
       fflate: 0.8.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
   '@revolist/revogrid-column-date@2.0.27': {}
 
-  '@revolist/revogrid-pro@3.0.0':
+  '@revolist/revogrid-pro@3.0.6':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.29.0
@@ -569,10 +621,20 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@vitejs/plugin-vue@6.0.8(vite@8.2.1)(vue@3.5.41(typescript@6.0.3))':
+  '@types/node@26.6.5':
+    dependencies:
+      undici-types: 8.9.0
+
+  '@types/whatwg-mimetype@3.0.2': {}
+
+  '@types/ws@8.18.2':
+    dependencies:
+      '@types/node': 26.6.5
+
+  '@vitejs/plugin-vue@6.0.8(vite@8.2.1(@types/node@26.6.5))(vue@3.5.41(typescript@6.0.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.2.1
+      vite: 8.2.1(@types/node@26.6.5)
       vue: 3.5.41(typescript@6.0.3)
 
   '@volar/language-core@2.4.15':
@@ -669,7 +731,17 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
+  buffer-image-size@0.6.4:
+    dependencies:
+      '@types/node': 26.6.5
+
   csstype@3.2.3: {}
+
+  d3-path@3.1.0: {}
+
+  d3-shape@3.2.0:
+    dependencies:
+      d3-path: 3.1.0
 
   de-indent@1.0.2: {}
 
@@ -689,6 +761,19 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
+
+  happy-dom@20.14.6:
+    dependencies:
+      '@types/node': 26.6.5
+      '@types/whatwg-mimetype': 3.0.2
+      '@types/ws': 8.18.2
+      buffer-image-size: 0.6.4
+      entities: 7.0.1
+      whatwg-mimetype: 3.0.0
+      ws: 8.22.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
   he@1.2.0: {}
 
@@ -796,7 +881,9 @@ snapshots:
 
   typescript@6.0.3: {}
 
-  vite@8.2.1:
+  undici-types@8.9.0: {}
+
+  vite@8.2.1(@types/node@26.6.5):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -804,6 +891,7 @@ snapshots:
       rolldown: 1.2.3
       tinyglobby: 0.2.17
     optionalDependencies:
+      '@types/node': 26.6.5
       fsevents: 2.3.3
 
   vscode-uri@3.1.0: {}
@@ -824,6 +912,10 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
+  whatwg-mimetype@3.0.0: {}
+
   write-excel-file@4.1.1:
     dependencies:
       fflate: 0.8.3
+
+  ws@8.22.0: {}
