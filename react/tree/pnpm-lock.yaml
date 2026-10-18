@@ -18,8 +18,8 @@ importers:
         specifier: 4.29.0
         version: 4.29.0
       '@revolist/revogrid-pro':
-        specifier: 3.0.10
-        version: 3.0.10
+        specifier: 3.0.12
+        version: 3.0.12
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -55,8 +55,8 @@ packages:
   '@revolist/react-datagrid@4.29.0':
     resolution: {integrity: sha512-u7wjWfNK5+XpbXQnbf6A52OKnp1bA6O6f+6ywJ5yUULpKkN5DV+RsZHSImWHL5FB1BE6qx8MGQC6KsZYfvgfiQ==, tarball: http://npm.rv-grid.com/@revolist/react-datagrid/-/8c78049780ce2cc5611b0b9e9a216273efb9d701}
 
-  '@revolist/revogrid-pro@3.0.10':
-    resolution: {integrity: sha512-GBhxZY7m1aCIDCkxa0xANm/ZhF58H3VjobE/0G1HFrIwj984uHaBE+f07fTiY1zzhw2C25bvZDQ3nA+EsLjaLg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/dc6874e3b17b37e3a91440aa6b64922372a28994}
+  '@revolist/revogrid-pro@3.0.12':
+    resolution: {integrity: sha512-FXBaj1YUSQHuls9KWu0KwhYXoAUMvE0j8iMnILo8tIW9244/sZg3XPszIBmXWKao8HBRnp0qB7JTBUVKW9Sfng==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/123f58c4532301facc9e356d40b4a6e83f21b6eb}
 
   '@revolist/revogrid@4.29.0':
     resolution: {integrity: sha512-LpnIXaOd4/UVcNK9ZRAIgXP1f+mkGwFCPu6Fii/pGrlqa+QqRNN4r51Iwe+4KAG913SSjutgkHqBURRphtRO2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/25df917795e4a2ef5b56bc35221f1ea06f289653}
@@ -386,7 +386,7 @@ snapshots:
     dependencies:
       '@revolist/revogrid': 4.29.0
 
-  '@revolist/revogrid-pro@3.0.10':
+  '@revolist/revogrid-pro@3.0.12':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.29.0
