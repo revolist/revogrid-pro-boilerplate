@@ -1,0 +1,6 @@
+minimumReleaseAgeExclude:
+  - '@revolist/react-datagrid@4.29.1'
+  - '@revolist/revogrid@4.29.1'
+
+overrides:
+  '@revolist/revogrid': '4.29.1'

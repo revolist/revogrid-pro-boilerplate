@@ -2,10 +2,10 @@
   "name": "revogrid-pivot-vanilla",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": "^22.22.3 || ^24.15.0 || ^26.0.0",
-    "pnpm": ">=10.5.2 <11"
+    "pnpm": ">=11.25.0 <12"
   },
   "type": "module",
   "scripts": {
@@ -14,10 +14,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.29.0",
+    "@revolist/revogrid": "4.29.1",
     "@revolist/revogrid-column-date": "^2.0.27",
-    "@revolist/pivot": "3.0.12",
-    "@revolist/revogrid-pro": "3.0.12"
+    "@revolist/pivot": "3.0.14",
+    "@revolist/revogrid-pro": "3.0.14"
   },
   "devDependencies": {
     "typescript": "~6.0.3",
@@ -25,7 +25,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@revolist/revogrid": "4.29.0"
+      "@revolist/revogrid": "4.29.1"
     }
   }
 }

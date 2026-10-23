@@ -1,0 +1,6 @@
+minimumReleaseAgeExclude:
+  - '@revolist/revogrid@4.29.1'
+  - '@revolist/svelte-datagrid@4.29.1'
+
+overrides:
+  '@revolist/revogrid': '4.29.1'
