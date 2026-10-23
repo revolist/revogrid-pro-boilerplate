@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@revolist/revogrid': 4.29.1
+
 importers:
 
   .:

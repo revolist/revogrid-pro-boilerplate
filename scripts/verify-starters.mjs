@@ -1,4 +1,5 @@
 import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
 
 const starters = [
   'vanilla-ts/tree',
@@ -33,7 +34,11 @@ function run(starter, args) {
 for (const starter of starters) {
   console.log(`\nVerifying ${starter}`);
   if (!skipInstall) {
-    run(starter, ['install', '--frozen-lockfile', '--ignore-workspace']);
+    const installArgs = ['install', '--frozen-lockfile'];
+    if (!existsSync(`${starter}/pnpm-workspace.yaml`)) {
+      installArgs.push('--ignore-workspace');
+    }
+    run(starter, installArgs);
   }
   run(starter, ['build']);
 }
