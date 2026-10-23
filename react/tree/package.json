@@ -2,10 +2,10 @@
   "name": "revogrid-tree-react",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@11.25.0",
   "engines": {
     "node": "^22.22.3 || ^24.15.0 || ^26.0.0",
-    "pnpm": ">=10.5.2 <11"
+    "pnpm": ">=11.25.0 <12"
   },
   "type": "module",
   "scripts": {
