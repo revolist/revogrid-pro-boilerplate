@@ -1,6 +1,6 @@
 minimumReleaseAgeExclude:
   - '@revolist/revogrid@4.29.1'
-  - '@revolist/revogrid-pro@3.0.14'
+  - '@revolist/revogrid-pro@3.0.17'
 
 overrides:
   '@revolist/revogrid': '4.29.1'
