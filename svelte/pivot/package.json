@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@revolist/revogrid": "4.29.1",
-    "@revolist/pivot": "3.0.17",
-    "@revolist/revogrid-pro": "3.0.17",
+    "@revolist/pivot": "3.0.18",
+    "@revolist/revogrid-pro": "3.0.18",
     "@revolist/svelte-datagrid": "4.29.1",
     "@revolist/revogrid-column-date": "^2.0.27",
     "svelte": "^5.55.7"

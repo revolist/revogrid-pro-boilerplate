@@ -15,8 +15,8 @@ importers:
         specifier: 4.29.1
         version: 4.29.1
       '@revolist/revogrid-pro':
-        specifier: 3.0.17
-        version: 3.0.17
+        specifier: 3.0.18
+        version: 3.0.18
       '@revolist/vue3-datagrid':
         specifier: 4.29.1
         version: 4.29.1
@@ -66,8 +66,8 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/revogrid-pro@3.0.17':
-    resolution: {integrity: sha512-y3xdZdGMjtJZH2iLQK61Q0FgmP7At2LqcvcWY2rBgKkjExG06ixcbKQuRpqNIzZHHa1oyurMqVP8IGDkMO9BuQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/67904239214b06ac9fb35feeadc649e9cc08cec3}
+  '@revolist/revogrid-pro@3.0.18':
+    resolution: {integrity: sha512-UZODu/c3biq513UAeWiQ9gruOeF+3wypKxU0E14S1OjisseitaAPpJ3WC+O+jep53ZB4Zzv6Y6x9UHmwRV91SQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/df2fd5d93df919129ae19bf664b796a59c2ddcdb}
 
   '@revolist/revogrid@4.29.1':
     resolution: {integrity: sha512-j/m52cS6ev4aOpskj2lxIc+vP1gxNFGJ1K3hrp6vM1lw/JJctQN4iEgr+8qhzkEVrmd5VoAa163SVB00mR4c2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/cb8f9d44241542e93b58dcb4298fae2f0d978cf1}
@@ -498,7 +498,7 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/revogrid-pro@3.0.17':
+  '@revolist/revogrid-pro@3.0.18':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.29.1
