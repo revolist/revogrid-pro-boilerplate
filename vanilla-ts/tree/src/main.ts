@@ -1,3 +1,5 @@
+import { createControl } from '@revolist/ui';
+import '@revolist/ui/styles.css';
 /**
  * RevoGrid Tree Plugin starter (Vanilla TS)
  *
@@ -48,11 +50,11 @@ document.querySelector('#app')?.appendChild(grid);
 // Toolbar buttons
 const toolbar = document.querySelector('#toolbar')!;
 
-const expandBtn = document.createElement('button');
+const expandBtn = createControl(document, 'button');
 expandBtn.textContent = 'Expand All';
 expandBtn.onclick = () => grid.dispatchEvent(new CustomEvent(TREE_EXPAND_ALL_EVENT));
 
-const collapseBtn = document.createElement('button');
+const collapseBtn = createControl(document, 'button');
 collapseBtn.textContent = 'Collapse All';
 collapseBtn.onclick = () => grid.dispatchEvent(new CustomEvent(TREE_COLLAPSE_ALL_EVENT));
 

@@ -17,7 +17,9 @@
     "@revolist/revogrid": "4.29.1",
     "@revolist/revogrid-pro": "3.0.18",
     "@revolist/svelte-datagrid": "4.29.1",
-    "svelte": "^5.55.7"
+    "svelte": "^5.55.7",
+    "@revolist/ui": "file:../../vendor/revolist-ui-3.0.14.tgz",
+    "preact": "10.29.1"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.2.0",

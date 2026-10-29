@@ -1,3 +1,4 @@
+import { UiControlDirective } from '@revolist/ui/angular-control';
 import { Component, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
 import { RevoGrid } from '@revolist/angular-datagrid';
 import {
@@ -9,13 +10,13 @@ import {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RevoGrid],
+  imports: [UiControlDirective, RevoGrid],
   encapsulation: ViewEncapsulation.None,
   template: `
     <div style="display: flex; flex-direction: column; height: 100vh">
       <div style="display: flex; gap: 8px; padding: 8px">
-        <button (click)="expandAll()">Expand All</button>
-        <button (click)="collapseAll()">Collapse All</button>
+        <button rvControl (click)="expandAll()">Expand All</button>
+        <button rvControl (click)="collapseAll()">Collapse All</button>
       </div>
       <revo-grid
         #grid

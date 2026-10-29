@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@revolist/revogrid": "4.29.1",
-    "@revolist/revogrid-pro": "3.0.18"
+    "@revolist/revogrid-pro": "3.0.18",
+    "@revolist/ui": "file:../../vendor/revolist-ui-3.0.14.tgz",
+    "preact": "10.29.1"
   },
   "devDependencies": {
     "typescript": "~6.0.3",

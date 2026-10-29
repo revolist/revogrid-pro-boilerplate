@@ -6,7 +6,9 @@
     "app": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": { "style": "css" }
+        "@schematics/angular:component": {
+          "style": "css"
+        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -18,17 +20,30 @@
             "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.json",
             "assets": [],
-            "styles": ["@revolist/revogrid-pro/styles.css"],
+            "styles": [
+              "@revolist/revogrid-pro/styles.css",
+              "@revolist/ui/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
             "production": {
               "budgets": [
-                { "type": "initial", "maximumWarning": "2MB", "maximumError": "3MB" },
-                { "type": "anyComponentStyle", "maximumWarning": "4kB", "maximumError": "8kB" }
+                {
+                  "type": "initial",
+                  "maximumWarning": "2MB",
+                  "maximumError": "3MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
               ],
               "outputHashing": "all"
             },
@@ -43,8 +58,12 @@
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
-            "production": { "buildTarget": "app:build:production" },
-            "development": { "buildTarget": "app:build:development" }
+            "production": {
+              "buildTarget": "app:build:production"
+            },
+            "development": {
+              "buildTarget": "app:build:development"
+            }
           },
           "defaultConfiguration": "development"
         }

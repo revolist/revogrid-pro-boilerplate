@@ -1,3 +1,5 @@
+import '@revolist/ui/styles.css';
+import { ButtonControl as UiButton } from '@revolist/ui/react-control';
 import React, { useRef, useMemo } from 'react';
 import { RevoGrid } from '@revolist/react-datagrid';
 import {
@@ -46,8 +48,8 @@ const App: React.FC = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <div style={{ display: 'flex', gap: '8px', padding: '8px' }}>
-        <button onClick={expandAll}>Expand All</button>
-        <button onClick={collapseAll}>Collapse All</button>
+        <UiButton onClick={expandAll}>Expand All</UiButton>
+        <UiButton onClick={collapseAll}>Collapse All</UiButton>
       </div>
       <RevoGrid
         ref={gridRef}
