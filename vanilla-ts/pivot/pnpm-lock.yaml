@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@revolist/revogrid': 4.29.1
+  '@revolist/revogrid': 4.31.3
 
 importers:
 
@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.18
         version: 3.0.18
       '@revolist/revogrid':
-        specifier: 4.29.1
-        version: 4.29.1
+        specifier: 4.31.3
+        version: 4.31.3
       '@revolist/revogrid-column-date':
         specifier: ^2.0.27
         version: 2.0.27
@@ -56,8 +56,8 @@ packages:
   '@revolist/revogrid-pro@3.0.18':
     resolution: {integrity: sha512-UZODu/c3biq513UAeWiQ9gruOeF+3wypKxU0E14S1OjisseitaAPpJ3WC+O+jep53ZB4Zzv6Y6x9UHmwRV91SQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/df2fd5d93df919129ae19bf664b796a59c2ddcdb}
 
-  '@revolist/revogrid@4.29.1':
-    resolution: {integrity: sha512-j/m52cS6ev4aOpskj2lxIc+vP1gxNFGJ1K3hrp6vM1lw/JJctQN4iEgr+8qhzkEVrmd5VoAa163SVB00mR4c2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/cb8f9d44241542e93b58dcb4298fae2f0d978cf1}
+  '@revolist/revogrid@4.31.3':
+    resolution: {integrity: sha512-QDMBGY+aO1lj/RKXlLqk7fTzzlRXuPIUW+YTzpWB4rmLVoHMbrJloxc1An+BcGNfV7tgy2B74iihKb8GWktPfA==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/921f51cc282e93e119d8472d8f6dca2c58eb1d78}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -415,7 +415,7 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
       '@revolist/charts': 3.0.18
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.3
       '@revolist/revogrid-pro': 3.0.18
       fflate: 0.8.3
       preact: 10.29.8
@@ -429,13 +429,13 @@ snapshots:
   '@revolist/revogrid-pro@3.0.18':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.3
       preact: 10.29.8
       write-excel-file: 4.1.1
     transitivePeerDependencies:
       - preact-render-to-string
 
-  '@revolist/revogrid@4.29.1': {}
+  '@revolist/revogrid@4.31.3': {}
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true

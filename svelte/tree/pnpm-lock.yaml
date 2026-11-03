@@ -5,21 +5,21 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@revolist/revogrid': 4.29.1
+  '@revolist/revogrid': 4.31.3
 
 importers:
 
   .:
     dependencies:
       '@revolist/revogrid':
-        specifier: 4.29.1
-        version: 4.29.1
+        specifier: 4.31.3
+        version: 4.31.3
       '@revolist/revogrid-pro':
         specifier: 3.0.18
         version: 3.0.18
       '@revolist/svelte-datagrid':
-        specifier: 4.29.1
-        version: 4.29.1
+        specifier: 4.31.3
+        version: 4.31.3
       '@revolist/ui':
         specifier: file:../../vendor/revolist-ui-3.0.14.tgz
         version: file:../../vendor/revolist-ui-3.0.14.tgz(preact@10.29.1)(typescript@6.0.3)
@@ -199,11 +199,11 @@ packages:
   '@revolist/revogrid-pro@3.0.18':
     resolution: {integrity: sha512-UZODu/c3biq513UAeWiQ9gruOeF+3wypKxU0E14S1OjisseitaAPpJ3WC+O+jep53ZB4Zzv6Y6x9UHmwRV91SQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/df2fd5d93df919129ae19bf664b796a59c2ddcdb}
 
-  '@revolist/revogrid@4.29.1':
-    resolution: {integrity: sha512-j/m52cS6ev4aOpskj2lxIc+vP1gxNFGJ1K3hrp6vM1lw/JJctQN4iEgr+8qhzkEVrmd5VoAa163SVB00mR4c2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/cb8f9d44241542e93b58dcb4298fae2f0d978cf1}
+  '@revolist/revogrid@4.31.3':
+    resolution: {integrity: sha512-QDMBGY+aO1lj/RKXlLqk7fTzzlRXuPIUW+YTzpWB4rmLVoHMbrJloxc1An+BcGNfV7tgy2B74iihKb8GWktPfA==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/921f51cc282e93e119d8472d8f6dca2c58eb1d78}
 
-  '@revolist/svelte-datagrid@4.29.1':
-    resolution: {integrity: sha512-CHHvDgaH/G0ZPP2IFreTWo1u8dmYnMSZvIs0NoEP4eKr2eZ6eF4GkcrfjPSFHqkNtyXFUm/AUaeHVqpB/M/DSg==, tarball: http://npm.rv-grid.com/@revolist/svelte-datagrid/-/21ae50802b83a078ddbf8985d5c405363d29ba58}
+  '@revolist/svelte-datagrid@4.31.3':
+    resolution: {integrity: sha512-wS06w4jW7VoQm4CoeGzvpqcQ+ZnUDPbi3HkbUpIQ/AG8/7kQNvmsusrqgBLYmiYn7tnoKGpH4ypzfogYNfWLyw==, tarball: http://npm.rv-grid.com/@revolist/svelte-datagrid/-/9c0f37445db3da2268223f23354bef50e3e9a049}
 
   '@revolist/ui@file:../../vendor/revolist-ui-3.0.14.tgz':
     resolution: {integrity: sha512-90Q3oINjtA3dpV0WskudhvyE4OWax2QxyXQ35+sKrJdeSUE++KEfglih+2qrnJ/NdSI/i7uKq5wlxxeyGJFnnQ==, tarball: file:../../vendor/revolist-ui-3.0.14.tgz}
@@ -780,17 +780,17 @@ snapshots:
   '@revolist/revogrid-pro@3.0.18':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.3
       preact: 10.29.8
       write-excel-file: 4.1.1
     transitivePeerDependencies:
       - preact-render-to-string
 
-  '@revolist/revogrid@4.29.1': {}
+  '@revolist/revogrid@4.31.3': {}
 
-  '@revolist/svelte-datagrid@4.29.1':
+  '@revolist/svelte-datagrid@4.31.3':
     dependencies:
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.3
 
   '@revolist/ui@file:../../vendor/revolist-ui-3.0.14.tgz(preact@10.29.1)(typescript@6.0.3)':
     dependencies:
