@@ -1,8 +1,8 @@
 <template>
   <div style="display: flex; flex-direction: column; height: 100vh">
     <div style="display: flex; gap: 8px; padding: 8px">
-      <button @click="expandAll">Expand All</button>
-      <button @click="collapseAll">Collapse All</button>
+      <button v-rv-control @click="expandAll">Expand All</button>
+      <button v-rv-control @click="collapseAll">Collapse All</button>
     </div>
     <RevoGrid
       ref="gridRef"
@@ -18,6 +18,8 @@
 </template>
 
 <script setup lang="ts">
+import { vRvControl } from '@revolist/ui/vue-control';
+import '@revolist/ui/styles.css';
 import { ref, shallowRef } from 'vue';
 import RevoGrid from '@revolist/vue3-datagrid';
 import {

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { rvControl } from '@revolist/ui/svelte-control';
+  import '@revolist/ui/styles.css';
   import { RevoGrid } from '@revolist/svelte-datagrid';
   import {
     TreeDataPlugin,
@@ -45,8 +47,8 @@
 
 <div style="display: flex; flex-direction: column; height: 100vh">
   <div style="display: flex; gap: 8px; padding: 8px">
-    <button on:click={expandAll}>Expand All</button>
-    <button on:click={collapseAll}>Collapse All</button>
+    <button use:rvControl on:click={expandAll}>Expand All</button>
+    <button use:rvControl on:click={collapseAll}>Collapse All</button>
   </div>
   <RevoGrid
     bind:getWebComponent
