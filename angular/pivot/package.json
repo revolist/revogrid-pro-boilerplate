@@ -24,7 +24,7 @@
     "@revolist/revogrid": "4.29.1",
     "@revolist/revogrid-column-date": "2.0.27",
     "@revolist/pivot": "4.0.1",
-    "@revolist/revogrid-pro": "4.0.1",
+    "@revolist/revogrid-pro": "4.0.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

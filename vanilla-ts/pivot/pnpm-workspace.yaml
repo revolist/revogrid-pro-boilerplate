@@ -2,7 +2,7 @@ minimumReleaseAgeExclude:
   - '@revolist/revogrid@4.29.1'
   - '@revolist/charts@4.0.1'
   - '@revolist/pivot@4.0.1'
-  - '@revolist/revogrid-pro@4.0.1'
+  - '@revolist/revogrid-pro@4.0.6'
 
 overrides:
   '@revolist/revogrid': '4.29.1'
