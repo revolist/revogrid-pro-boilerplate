@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@revolist/revogrid': 4.29.1
+  '@revolist/revogrid': 4.31.5
 
 importers:
 
@@ -15,8 +15,8 @@ importers:
         specifier: 4.0.9
         version: 4.0.9
       '@revolist/revogrid':
-        specifier: 4.29.1
-        version: 4.29.1
+        specifier: 4.31.5
+        version: 4.31.5
       '@revolist/revogrid-column-date':
         specifier: ^2.0.27
         version: 2.0.27
@@ -47,7 +47,7 @@ packages:
   '@revolist/charts@4.0.9':
     resolution: {integrity: sha512-ddtABGMW13q7cba7jufQrdqyL/tTaATymnWK3jBICWvzegvvJ2UIOqESmtJQRAv62iB5b7HUB0gs8l22KrhTTg==, tarball: http://npm.rv-grid.com/@revolist/charts/-/9a467bce49f28eab663650874fe1210371191a02}
     peerDependencies:
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.5
 
   '@revolist/pivot@4.0.9':
     resolution: {integrity: sha512-LQrygykI5l2qChQw/LkuUtGGBtf8lYCQxfXY/wLPSKq1btrg3gwYBFaEFp5qV37HBC8T7Wp1ZQcSAsGCqD8F8w==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/241e011e5a609d9848dc15c8675bfd02776f0de0}
@@ -58,8 +58,8 @@ packages:
   '@revolist/revogrid-pro@4.0.9':
     resolution: {integrity: sha512-eftS+zUy1LM2FzWmt5ezDdJevhJyoVuQ4CRrVnEOf5ZxMVi91S7LW/IMqIZ4JoIzgN3duSpabIA4Zhc3vi1+GQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/fcad1a19c6d3e8c6d05738b33ecb7e41550c2eba}
 
-  '@revolist/revogrid@4.29.1':
-    resolution: {integrity: sha512-j/m52cS6ev4aOpskj2lxIc+vP1gxNFGJ1K3hrp6vM1lw/JJctQN4iEgr+8qhzkEVrmd5VoAa163SVB00mR4c2Q==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/cb8f9d44241542e93b58dcb4298fae2f0d978cf1}
+  '@revolist/revogrid@4.31.5':
+    resolution: {integrity: sha512-tWgNJpYPDrk/1tBYW4xZfgRNiab6ttZBqXwkeTdNX0fksNXnVsEXBEWegUvfkQs77QDRKcg2z1dUEop4G/Cttg==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/e0a89f4d298b1625dd1892caa83ca5db1a7b9e1e}
 
   '@rolldown/binding-android-arm64@1.2.3':
     resolution: {integrity: sha512-zrJtHDcaZJ1Fp7xf4hNl+7seH9Cn/N5TwLYkhgXREtBwAd/jaqW3uqeHxpDugJLVICWg4eW44kOQEGJ1r6jCGw==}
@@ -407,9 +407,9 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/charts@4.0.9(@revolist/revogrid@4.29.1)':
+  '@revolist/charts@4.0.9(@revolist/revogrid@4.31.5)':
     dependencies:
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.5
       '@tanstack/query-core': 5.104.5
       d3-shape: 3.2.0
       fflate: 0.8.3
@@ -423,8 +423,8 @@ snapshots:
   '@revolist/pivot@4.0.9':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
-      '@revolist/charts': 4.0.9(@revolist/revogrid@4.29.1)
-      '@revolist/revogrid': 4.29.1
+      '@revolist/charts': 4.0.9(@revolist/revogrid@4.31.5)
+      '@revolist/revogrid': 4.31.5
       '@revolist/revogrid-pro': 4.0.9
       '@tanstack/query-core': 5.104.5
       fflate: 0.8.3
@@ -439,14 +439,14 @@ snapshots:
   '@revolist/revogrid-pro@4.0.9':
     dependencies:
       '@formulajs/formulajs': 4.6.1
-      '@revolist/revogrid': 4.29.1
+      '@revolist/revogrid': 4.31.5
       '@tanstack/query-core': 5.104.5
       preact: 10.29.8
       write-excel-file: 4.1.1
     transitivePeerDependencies:
       - preact-render-to-string
 
-  '@revolist/revogrid@4.29.1': {}
+  '@revolist/revogrid@4.31.5': {}
 
   '@rolldown/binding-android-arm64@1.2.3':
     optional: true

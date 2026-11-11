@@ -14,7 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@revolist/revogrid": "4.29.1",
+    "@revolist/revogrid": "4.31.5",
     "@revolist/revogrid-pro": "4.0.9",
     "@revolist/ui": "4.0.9",
     "preact": "10.29.1"
@@ -25,7 +25,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@revolist/revogrid": "4.29.1"
+      "@revolist/revogrid": "4.31.5"
     }
   }
 }
