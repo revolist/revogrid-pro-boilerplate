@@ -16,10 +16,10 @@
   "dependencies": {
     "@revolist/react-datagrid": "4.29.1",
     "@revolist/revogrid": "4.29.1",
-    "@revolist/revogrid-pro": "4.0.6",
+    "@revolist/revogrid-pro": "4.0.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@revolist/ui": "4.0.1",
+    "@revolist/ui": "4.0.9",
     "preact": "10.29.1"
   },
   "devDependencies": {
