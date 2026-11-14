@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@revolist/pivot':
-        specifier: 4.0.9
-        version: 4.0.9
+        specifier: 4.0.15
+        version: 4.0.15
       '@revolist/revogrid':
         specifier: 4.31.5
         version: 4.31.5
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.27
         version: 2.0.27
       '@revolist/revogrid-pro':
-        specifier: 4.0.9
-        version: 4.0.9
+        specifier: 4.0.15
+        version: 4.0.15
       '@revolist/vue3-datagrid':
         specifier: 4.31.5
         version: 4.31.5
@@ -76,19 +76,19 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/charts@4.0.9':
-    resolution: {integrity: sha512-ddtABGMW13q7cba7jufQrdqyL/tTaATymnWK3jBICWvzegvvJ2UIOqESmtJQRAv62iB5b7HUB0gs8l22KrhTTg==, tarball: http://npm.rv-grid.com/@revolist/charts/-/9a467bce49f28eab663650874fe1210371191a02}
+  '@revolist/charts@4.0.15':
+    resolution: {integrity: sha512-dvodpZRB/ZgcR+xf6awSHiuZPzKmQHLVwi9fxN4bp4TsiCAR/lLJUUD92nKYUFcVf0xZn4mnSGKyxpBRwrFAFA==, tarball: http://npm.rv-grid.com/@revolist/charts/-/5dd0d4bdb91392d53b2c0c58972281b363d39936}
     peerDependencies:
       '@revolist/revogrid': 4.31.5
 
-  '@revolist/pivot@4.0.9':
-    resolution: {integrity: sha512-LQrygykI5l2qChQw/LkuUtGGBtf8lYCQxfXY/wLPSKq1btrg3gwYBFaEFp5qV37HBC8T7Wp1ZQcSAsGCqD8F8w==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/241e011e5a609d9848dc15c8675bfd02776f0de0}
+  '@revolist/pivot@4.0.15':
+    resolution: {integrity: sha512-m+/ChzKVumg9QWxd7e5xioow1HzKHWb70jIJkpZ/OUr82jWZ6LpcboTClJOJ5SEXWAFiXwAC95D6rycgW/5eXg==, tarball: http://npm.rv-grid.com/@revolist/pivot/-/fcb4955bc61c9aaba9af6805171297ab02026ee7}
 
   '@revolist/revogrid-column-date@2.0.27':
     resolution: {integrity: sha512-zb77cKO8Z2We1NxoSKx7hIGTsVjb/GHOsJdSkAUg/ks3ZMBlJYohbdJ9TlTyrE/i7eVEpeWabHEAScbN4aVbjg==, tarball: http://npm.rv-grid.com/@revolist/revogrid-column-date/-/aa2b839a727b17a0b59f9ab739fe035b3ce86a9a}
 
-  '@revolist/revogrid-pro@4.0.9':
-    resolution: {integrity: sha512-eftS+zUy1LM2FzWmt5ezDdJevhJyoVuQ4CRrVnEOf5ZxMVi91S7LW/IMqIZ4JoIzgN3duSpabIA4Zhc3vi1+GQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/fcad1a19c6d3e8c6d05738b33ecb7e41550c2eba}
+  '@revolist/revogrid-pro@4.0.15':
+    resolution: {integrity: sha512-IR6wgCxcD8a6AwMDIrWbIzGdYbW8Gm3FqjoCjbXplbbcEMwfgE7r2Cd9w5sa1vZ/XM4BuVJ9GM5ruB9RAiVN7A==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/144d3686101688c39ae40c9ddeed733b9f633925}
 
   '@revolist/revogrid@4.31.5':
     resolution: {integrity: sha512-tWgNJpYPDrk/1tBYW4xZfgRNiab6ttZBqXwkeTdNX0fksNXnVsEXBEWegUvfkQs77QDRKcg2z1dUEop4G/Cttg==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/e0a89f4d298b1625dd1892caa83ca5db1a7b9e1e}
@@ -568,7 +568,7 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/charts@4.0.9(@revolist/revogrid@4.31.5)':
+  '@revolist/charts@4.0.15(@revolist/revogrid@4.31.5)':
     dependencies:
       '@revolist/revogrid': 4.31.5
       '@tanstack/query-core': 5.104.5
@@ -581,12 +581,12 @@ snapshots:
       - preact-render-to-string
       - utf-8-validate
 
-  '@revolist/pivot@4.0.9':
+  '@revolist/pivot@4.0.15':
     dependencies:
       '@fortawesome/fontawesome-free': 7.3.1
-      '@revolist/charts': 4.0.9(@revolist/revogrid@4.31.5)
+      '@revolist/charts': 4.0.15(@revolist/revogrid@4.31.5)
       '@revolist/revogrid': 4.31.5
-      '@revolist/revogrid-pro': 4.0.9
+      '@revolist/revogrid-pro': 4.0.15
       '@tanstack/query-core': 5.104.5
       fflate: 0.8.3
       preact: 10.29.8
@@ -597,7 +597,7 @@ snapshots:
 
   '@revolist/revogrid-column-date@2.0.27': {}
 
-  '@revolist/revogrid-pro@4.0.9':
+  '@revolist/revogrid-pro@4.0.15':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.31.5

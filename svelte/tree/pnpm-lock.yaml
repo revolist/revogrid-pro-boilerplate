@@ -15,14 +15,14 @@ importers:
         specifier: 4.31.5
         version: 4.31.5
       '@revolist/revogrid-pro':
-        specifier: 4.0.9
-        version: 4.0.9
+        specifier: 4.0.15
+        version: 4.0.15
       '@revolist/svelte-datagrid':
         specifier: 4.31.5
         version: 4.31.5
       '@revolist/ui':
-        specifier: 4.0.9
-        version: 4.0.9(@angular/core@22.2.4(rxjs@7.8.2))(pdfjs-dist@6.5.438)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(svelte@5.56.8)(vue@3.5.45(typescript@6.0.3))
+        specifier: 4.0.15
+        version: 4.0.15(@angular/core@22.2.4(rxjs@7.8.2))(pdfjs-dist@6.5.438)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(svelte@5.56.8)(vue@3.5.45(typescript@6.0.3))
       preact:
         specifier: 10.29.1
         version: 10.29.1
@@ -170,8 +170,8 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@revolist/revogrid-pro@4.0.9':
-    resolution: {integrity: sha512-eftS+zUy1LM2FzWmt5ezDdJevhJyoVuQ4CRrVnEOf5ZxMVi91S7LW/IMqIZ4JoIzgN3duSpabIA4Zhc3vi1+GQ==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/fcad1a19c6d3e8c6d05738b33ecb7e41550c2eba}
+  '@revolist/revogrid-pro@4.0.15':
+    resolution: {integrity: sha512-IR6wgCxcD8a6AwMDIrWbIzGdYbW8Gm3FqjoCjbXplbbcEMwfgE7r2Cd9w5sa1vZ/XM4BuVJ9GM5ruB9RAiVN7A==, tarball: http://npm.rv-grid.com/@revolist/revogrid-pro/-/144d3686101688c39ae40c9ddeed733b9f633925}
 
   '@revolist/revogrid@4.31.5':
     resolution: {integrity: sha512-tWgNJpYPDrk/1tBYW4xZfgRNiab6ttZBqXwkeTdNX0fksNXnVsEXBEWegUvfkQs77QDRKcg2z1dUEop4G/Cttg==, tarball: http://npm.rv-grid.com/@revolist/revogrid/-/e0a89f4d298b1625dd1892caa83ca5db1a7b9e1e}
@@ -179,8 +179,8 @@ packages:
   '@revolist/svelte-datagrid@4.31.5':
     resolution: {integrity: sha512-L2nq50PphVvkzBKHiww33RvXLvo2FQXQOtWXQDa5zxhcKIQ42kutBJPbWE4CVe6ar50OcE2/1ZTl6au7G5V8Ow==, tarball: http://npm.rv-grid.com/@revolist/svelte-datagrid/-/387a78f5708ea288e9ae8af93da0e422db6e9abf}
 
-  '@revolist/ui@4.0.9':
-    resolution: {integrity: sha512-vvKBbboZ+qp3Ri5+NfZb4CEH+ZYavoIp1VSIifJZ/9YGS3+HX2XdX8emRNUu2P0szKImBIRoM/c/yxVeyhOz+g==, tarball: http://npm.rv-grid.com/@revolist/ui/-/e95f9527cb91dfe98094eeadeadf07494b1f058b}
+  '@revolist/ui@4.0.15':
+    resolution: {integrity: sha512-dPgJt0v8Tu1lWx7izi26KCMG3qenPNTlkcbV37ak4sbPoM29IcEQpPjTXwtwv1OTllGAz6wZU6QT5E+dRVD9gw==, tarball: http://npm.rv-grid.com/@revolist/ui/-/0cc1930ee82f6c4a0f143a4f1b807de28968c39b}
     peerDependencies:
       '@angular/core': '>=20'
       pdfjs-dist: ^6.4.299
@@ -729,7 +729,7 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@revolist/revogrid-pro@4.0.9':
+  '@revolist/revogrid-pro@4.0.15':
     dependencies:
       '@formulajs/formulajs': 4.6.1
       '@revolist/revogrid': 4.31.5
@@ -743,7 +743,7 @@ snapshots:
     dependencies:
       '@revolist/revogrid': 4.31.5
 
-  '@revolist/ui@4.0.9(@angular/core@22.2.4(rxjs@7.8.2))(pdfjs-dist@6.5.438)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(svelte@5.56.8)(vue@3.5.45(typescript@6.0.3))':
+  '@revolist/ui@4.0.15(@angular/core@22.2.4(rxjs@7.8.2))(pdfjs-dist@6.5.438)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(svelte@5.56.8)(vue@3.5.45(typescript@6.0.3))':
     dependencies:
       '@angular/core': 22.2.4(rxjs@7.8.2)
       pdfjs-dist: 6.5.438

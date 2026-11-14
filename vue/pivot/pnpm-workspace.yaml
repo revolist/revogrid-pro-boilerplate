@@ -1,7 +1,7 @@
 minimumReleaseAgeExclude:
-  - '@revolist/revogrid-pro@4.0.9'
-  - '@revolist/pivot@4.0.9'
-  - '@revolist/charts@4.0.9'
+  - '@revolist/revogrid-pro@4.0.9 || 4.0.15'
+  - '@revolist/pivot@4.0.9 || 4.0.15'
+  - '@revolist/charts@4.0.9 || 4.0.15'
   - '@revolist/revogrid@4.31.5'
   - '@revolist/vue3-datagrid@4.31.5'
 
