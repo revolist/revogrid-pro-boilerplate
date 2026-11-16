@@ -5,10 +5,10 @@ allowBuilds:
   msgpackr-extract: true
 
 minimumReleaseAgeExclude:
-  - '@revolist/revogrid-pro@4.0.9 || 4.0.15'
+  - '@revolist/revogrid-pro@4.0.25'
   - '@revolist/angular-datagrid@4.31.5'
   - '@revolist/revogrid@4.31.5'
-  - '@revolist/ui@4.0.9 || 4.0.15'
+  - '@revolist/ui@4.0.25'
 
 overrides:
   '@revolist/revogrid': '4.31.5'
